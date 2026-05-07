@@ -1,4 +1,3 @@
-#Data_Mining_Assignment
 National Institute of Business Management
 Master of Science in Data Science
 NIB2001CEM– Data Mining
@@ -17,10 +16,10 @@ interestingness. Such information can be used as the basis for decisions about m
 promotional pricing or product placements. Association rules mining is employed today in many application areas
 including Web usage mining, intrusion detection, Continuous production, and bioinformatics.
 Your task for this part is to identify and perform an association rule mining task. This involves
-1. 2. 3. 4. Preparing and preprocessing the data
-Finding rules, including appropriate parameter setting
-Determining which of the resulting rules are interesting
-Figuring out how the interesting rules could be useful
+1. Preparing and preprocessing the data
+2. Finding rules, including appropriate parameter setting
+3. Determining which of the resulting rules are interesting
+4. Figuring out how the interesting rules could be useful
 
 Data Set:
 Use the Online Retail data set (Online Retail.xlsx) described below: This is a transactional data set
@@ -29,17 +28,13 @@ registered non-store online retail. The company mainly sells unique all-occasion
 of the company are wholesalers.
 
 Attributes:
-InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each
-transaction. If this code starts with letter 'c', it indicates a cancellation.
-StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each
-distinct product.
+InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
 Description: Product (item) name. Nominal.
 1Quantity: The quantities of each product (item) per transaction. Numeric.
-InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was
-generated.
+InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
 UnitPrice: Unit price. Numeric, Product price per unit in sterling.
-CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each
-customer.
+CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 Country: Country name. Nominal, the name of the country where each customer resides.
 
 The dataset is available Here
