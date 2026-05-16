@@ -243,10 +243,20 @@ k=2 wins 3 out of 4 metrics. Note that inertia always decreases as k increases �
 
 **Mean values of each attribute per cluster:**
 
-| Cluster | fixed.ac | volatile.ac | citric | res.sugar | chlorides | free.SO₂ | total.SO₂ | density | pH | sulphates | alcohol | quality |
-|---------|---------|------------|--------|----------|----------|---------|----------|--------|-----|----------|--------|--------|
-| **0** | 6.749 | 0.276 | 0.316 | 3.418 | 0.040 | 28.295 | 116.083 | 0.992 | 3.213 | 0.486 | 11.170 | 6.041 |
-| **1** | 6.991 | 0.289 | 0.366 | 10.114 | 0.056 | 45.978 | 172.698 | 0.997 | 3.166 | 0.498 | 9.613 | 5.541 |
+| Attribute | Cluster 0 | Cluster 1 |
+|-----------|----------|----------|
+| fixed.ac | 6.749 | 6.991 |
+| volatile.ac | 0.276 | 0.289 |
+| citric | 0.316 | 0.366 |
+| res.sugar | 3.418 | 10.114 |
+| chlorides | 0.040 | 0.056 |
+| free.SO₂ | 28.295 | 45.978 |
+| total.SO₂ | 116.083 | 172.698 |
+| density | 0.992 | 0.997 |
+| pH | 3.213 | 3.166 |
+| sulphates | 0.486 | 0.498 |
+| alcohol | 11.170 | 9.613 |
+| quality | 6.041 | 5.541 |
 
 ### 3.5 Consistency with Quality Scores (Column 12)
 
